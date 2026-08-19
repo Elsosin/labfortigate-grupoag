@@ -5,12 +5,12 @@ topology:
 
     router-lan:
       kind: cisco_iol
-      image: docker.io/arthurk99/cisco-iol:17.15.01 
+      image: docker.io/edwin71/cisco-iol:17.15.01 
       startup-config: configs/router/config.partial
 
     router-wan:
       kind: cisco_iol
-      image: docker.io/arthurk99/cisco-iol:17.15.01 
+      image: docker.io/edwin71/cisco-iol:17.15.01 
       startup-config: configs/router-wan1/configw1.partial
               
     srlswitch:
