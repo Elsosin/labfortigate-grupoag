@@ -16,7 +16,7 @@ topology:
     srlswitch:
       kind: nokia_srlinux
       image: ghcr.io/nokia/srlinux:24.10.1
-      type: ixrd3
+      type: ixr-d3
       startup-config: configs/switch/srlswitch.cfg
     
     # Fortigate FW
