@@ -9,10 +9,10 @@ La imagen utilizada del firewall Fortigate se provee como una VM basada en QEMU 
 Siga los siguientes pasos:
 
 * Crear una cuenta en Github e importar el repositorio https://github.com/ernestosv73/fortigate
-* Descargar la imagen fortios-v6.0.3.qcow2 en su dispositivo local.
+* Descargar la imagen fortios-v6.4.1.qcow2 en su dispositivo local.
 * Desde el servidor Linux, clonar vrnetlab ejecutando: git clone https://github.com/srl-labs/vrnetlab
 * Asignar permisos de escritura a la carpeta /home/usuario/vrnetlab/fortinet/fortigate
-* Copiar el archivo descargado, (fortios-v6.0.3.qcow2) a la carpeta fortigate en el Servidor Linux
+* Copiar el archivo descargado, (fortios-v6.4.1.qcow2) a la carpeta fortigate en el Servidor Linux
 * Generar el contenedor docker ejecutando `make` 
   
 # Ejecución de topología
